@@ -5,9 +5,7 @@ import {
   Code2, 
   Palette, 
   Brain,
-  Database,
-  Cpu,
-  BarChart3,
+  Terminal,
 } from "lucide-react";
 
 const skillCategories = [
@@ -24,27 +22,15 @@ const skillCategories = [
     skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV", "Hugging Face"],
   },
   {
-    title: "Data Science",
-    icon: BarChart3,
+    title: "Programming",
+    icon: Terminal,
     color: "accent",
-    skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter", "Data Visualization"],
-  },
-  {
-    title: "NLP & AI",
-    icon: Cpu,
-    color: "primary",
-    skills: ["NLTK", "spaCy", "Transformers", "GPT APIs", "Text Classification", "Sentiment Analysis"],
-  },
-  {
-    title: "Backend & Database",
-    icon: Database,
-    color: "secondary",
-    skills: ["Node.js", "Python", "MongoDB", "PostgreSQL", "REST APIs", "GraphQL"],
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"],
   },
   {
     title: "Design Tools",
     icon: Palette,
-    color: "accent",
+    color: "primary",
     skills: ["Figma", "Adobe XD", "Photoshop", "UI/UX Design", "Responsive Design"],
   },
 ];
@@ -96,7 +82,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillCategories.map((category, categoryIndex) => {
             const colorClasses = getColorClasses(category.color);
             

@@ -6,25 +6,25 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
   {
     title: "Clothing Exchange Platform",
-    description: "A modern, fully responsive animated community platform built with React and TypeScript. Features clean UI, smooth animations, and interactive user experience.",
+    description: "A modern, fully responsive animated community platform built with HTML, CSS, and JavaScript. Features clean UI, smooth CSS animations, and interactive user experience.",
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=60",
     github: "#",
     live: "#",
   },
   {
-    title: "ML Sentiment Analyzer",
-    description: "Natural Language Processing tool that analyzes text sentiment using transformer models. Built with Python, TensorFlow, and deployed as a web API.",
-    tags: ["Python", "TensorFlow", "NLP", "FastAPI"],
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&auto=format&fit=crop&q=60",
+    title: "Data Visualization Dashboard",
+    description: "Interactive dashboard for visualizing complex datasets with real-time updates. Features charts, filters, and export capabilities built with modern frontend technologies.",
+    tags: ["React", "D3.js", "TypeScript", "CSS Animations"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
     github: "#",
     live: "#",
   },
   {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for visualizing complex datasets with real-time updates. Features charts, filters, and export capabilities.",
-    tags: ["React", "D3.js", "Pandas", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
+    title: "Gaming UI Website",
+    description: "A modern, fully responsive animated gaming UI website built with HTML, CSS, and JavaScript. Designed with clean UI, smooth CSS animations, and an interactive user experience.",
+    tags: ["HTML", "CSS", "JavaScript", "GSAP"],
+    image: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60",
     github: "#",
     live: "#",
   },
@@ -49,7 +49,7 @@ const Projects = () => {
             My Projects 👨‍💻
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A selection of projects showcasing my skills in development and machine learning
+            A selection of projects showcasing my skills in frontend development
           </p>
         </motion.div>
 
