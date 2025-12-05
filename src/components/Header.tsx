@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Github, Linkedin } from "lucide-react";
 
+
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
@@ -42,7 +43,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all duration-300"
             >
-              <Github size={18} />
+              <Github size={28} />
             </a>
             <a
               href="https://www.linkedin.com/in/krishna-patel-99b3192b9/"
@@ -50,7 +51,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all duration-300"
             >
-              <Linkedin size={18} />
+              <Linkedin size={28} />
             </a>
           </div>
 
@@ -59,7 +60,7 @@ const Header = () => {
             onClick={() => setIsOpen(true)}
             className="md:hidden glass-card p-3 rounded-full"
           >
-            <Menu className="text-foreground" size={24} />
+            <Menu className="text-foreground" size={28} />
           </button>
         </div>
       </motion.header>

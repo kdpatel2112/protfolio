@@ -71,7 +71,7 @@ const Hero = () => {
               href="#contact"
               className="cosmic-button inline-flex items-center gap-2 text-foreground"
             >
-              <Send size={18} />
+              <Send size={28} />
               Contact Me
             </a>
           </motion.div>
@@ -91,7 +91,7 @@ const Hero = () => {
           className="flex flex-col items-center gap-2 text-muted-foreground"
         >
           <span className="text-sm">Scroll Down</span>
-          <ChevronDown size={20} />
+          <ChevronDown size={28} />
         </motion.div>
       </motion.div>
     </section>

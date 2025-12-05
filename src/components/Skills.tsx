@@ -13,26 +13,37 @@ const skillCategories = [
     title: "Frontend Development",
     icon: Code2,
     color: "primary",
-    skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js", "Redux"],
+    skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS",  ],
   },
   {
     title: "Machine Learning",
     icon: Brain,
     color: "secondary",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV", "Hugging Face"],
+    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV", "Data hadling"],
   },
   {
     title: "Programming",
     icon: Terminal,
     color: "accent",
-    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"],
+skills: ["ChatGPT", "Gemini", "Claude", "Perplexity AI", "Midjourney", "Leonardo AI", "Adobe Firefly", "Jasper", "Copy.ai", "Canva AI", "Pika Labs", "Runway ML", "Whisper AI", "ElevenLabs", "Durable AI", "Gamma AI"]
+
   },
   {
     title: "Design Tools",
     icon: Palette,
     color: "primary",
-    skills: ["Figma", "Adobe XD", "Photoshop", "UI/UX Design", "Responsive Design"],
+    skills: ["Figma", "Adobe XD",  "UI/UX Design", "Responsive Design"],
+
+  
   },
+  {
+    title:  "Worked with 16+ AI Tools to automate content creation, design, data handling, and development tasks.",
+    icon: Brain,
+    color: "secondary",
+     skills: ["ChatGPT", "Gemini", "Claude", "Perplexity AI", "Midjourney", "Leonardo AI", "Adobe Firefly", "Jasper", "Copy.ai", "Canva AI", "Pika Labs", "Runway ML", "Whisper AI", "ElevenLabs", "Durable AI", "Gamma AI"]
+  },
+  
+
 ];
 
 const Skills = () => {

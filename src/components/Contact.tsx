@@ -5,14 +5,14 @@ import { Send, Phone, Mail, Linkedin, Github, Twitter } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Phone, label: "+91 XXX XXX XXXX", href: "tel:+91XXXXXXXXXX" },
-  { icon: Mail, label: "krishna@example.com", href: "mailto:krishna@example.com" },
+  { icon: Phone, label: "+91 8849003214", href: "tel:+91 8849003214" },
+  { icon: Mail, label: "kdp9612@gmail.com", href: "kdp9612@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/krishna-patel-99b3192b9/" },
 ];
 
 const socialIcons = [
   { icon: Github, href: "https://github.com/kdpatel2112" },
-  { icon: Twitter, href: "#" },
+  
   { icon: Linkedin, href: "https://www.linkedin.com/in/krishna-patel-99b3192b9/" },
 ];
 
@@ -149,7 +149,7 @@ const Contact = () => {
                 className="cosmic-button w-full flex items-center justify-center gap-2 text-foreground"
               >
                 Send Message
-                <Send size={18} />
+                <Send size={28} />
               </button>
             </form>
           </motion.div>

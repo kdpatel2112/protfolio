@@ -4,7 +4,7 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "https://github.com/kdpatel2112" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/krishna-patel-99b3192b9/" },
-  { icon: Twitter, href: "#" },
+ 
 ];
 
 const Footer = () => {

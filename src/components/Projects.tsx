@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef } from "react"; 
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -20,14 +20,8 @@ const projects = [
     github: "#",
     live: "#",
   },
-  {
-    title: "Gaming UI Website",
-    description: "A modern, fully responsive animated gaming UI website built with HTML, CSS, and JavaScript. Designed with clean UI, smooth CSS animations, and an interactive user experience.",
-    tags: ["HTML", "CSS", "JavaScript", "GSAP"],
-    image: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60",
-    github: "#",
-    live: "#",
-  },
+  
+ 
 ];
 
 const Projects = () => {
