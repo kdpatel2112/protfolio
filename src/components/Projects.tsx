@@ -8,7 +8,7 @@ const projects = [
     title: "Clothing Exchange Platform",
     description: "A modern, fully responsive animated community platform built with HTML, CSS, and JavaScript. Features clean UI, smooth CSS animations, and interactive user experience.",
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=60",
+    image: "/images/clothing-exchange.png",
     github: "#",
     live: "#",
   },
