@@ -47,16 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        cosmic: {
+          blue: "hsl(var(--cosmic-blue))",
+          purple: "hsl(var(--cosmic-purple))",
+          cyan: "hsl(var(--cosmic-cyan))",
+          glow: "hsl(var(--cosmic-glow))",
+          dark: "hsl(var(--cosmic-dark))",
         },
+      },
+      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'],
+        display: ['Orbitron', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -65,25 +66,31 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "spin-slow": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
+        "pulse-soft": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.5" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-slow": "spin-slow 20s linear infinite",
+        "pulse-soft": "pulse-soft 3s ease-in-out infinite",
+      },
+      backgroundImage: {
+        'cosmic-gradient': 'linear-gradient(135deg, hsl(180, 70%, 45%), hsl(260, 60%, 50%), hsl(280, 70%, 40%), hsl(250, 70%, 55%), hsl(220, 70%, 50%), hsl(200, 80%, 50%), hsl(190, 70%, 45%))',
+        'radial-glow': 'radial-gradient(ellipse at center, hsl(210, 70%, 65% / 0.15), transparent 70%)',
       },
     },
   },
