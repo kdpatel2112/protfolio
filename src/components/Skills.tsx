@@ -25,7 +25,7 @@ const skillCategories = [
     title: "Programming",
     icon: Terminal,
     color: "accent",
-skills: ["ChatGPT", "Gemini", "Claude", "Perplexity AI", "Midjourney", "Leonardo AI", "Adobe Firefly", "Jasper", "Copy.ai", "Canva AI", "Pika Labs", "Runway ML", "Whisper AI", "ElevenLabs", "Durable AI", "Gamma AI"]
+skills: ["Python","Pandas", "NumPy", "Matplotlib", "Seaborn", "seaborn", "Git", "HTML5" ],
 
   },
   {
@@ -42,6 +42,12 @@ skills: ["ChatGPT", "Gemini", "Claude", "Perplexity AI", "Midjourney", "Leonardo
     color: "secondary",
      skills: ["ChatGPT", "Gemini", "Claude", "Perplexity AI", "Midjourney", "Leonardo AI", "Adobe Firefly", "Jasper", "Copy.ai", "Canva AI", "Pika Labs", "Runway ML", "Whisper AI", "ElevenLabs", "Durable AI", "Gamma AI"]
   },
+  {
+    title: "Work on ssip projects",
+    icon: Brain,
+    color: "accent",
+    skills: ["fire safty Drone",]
+  }
   
 
 ];
