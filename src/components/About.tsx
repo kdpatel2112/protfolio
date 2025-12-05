@@ -14,21 +14,22 @@ const cards = [
   {
     icon: Code2,
     title: "Tech Stack",
-    description: "I specialize in React, TypeScript, Python, and ML frameworks. Building robust and scalable applications is my passion.",
+    description: "I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications.",
     gradient: "from-accent/20 to-primary/20",
     span: "col-span-1",
   },
   {
     icon: Globe,
     title: "Remote & Flexible",
-    description: "Based in Gujarat, India — open to collaborating remotely with teams around the world. Flexible with time zones.",
+    description: "Based in Patan, Gujarat, India — open to collaborating remotely with teams around the world.",
     gradient: "from-secondary/20 to-accent/20",
     span: "col-span-1 md:row-span-2",
+    hasVideo: true,
   },
   {
     icon: Heart,
     title: "My Passion for Coding",
-    description: "I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies.",
+    description: "I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.",
     gradient: "from-primary/20 to-accent/20",
     span: "col-span-1 md:col-span-2",
   },
@@ -68,6 +69,21 @@ const About = () => {
             >
               {/* Background Gradient */}
               <div className={`absolute inset-0 bg-gradient-to-br ${card.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              
+              {/* Globe Video for Remote card */}
+              {card.hasVideo && (
+                <div className="absolute inset-0 flex items-center justify-center opacity-60">
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover mix-blend-lighten"
+                  >
+                    <source src="/videos/glob.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              )}
               
               <div className="relative z-10">
                 <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">

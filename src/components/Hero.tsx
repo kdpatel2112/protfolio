@@ -8,23 +8,18 @@ const Hero = () => {
       <div className="absolute inset-0 stars opacity-30" />
       <div className="absolute inset-0 bg-radial-glow" />
       
-      {/* Floating Orbs */}
-      <motion.div
-        animate={{ 
-          y: [0, -30, 0],
-          scale: [1, 1.1, 1],
-        }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-primary/10 blur-3xl"
-      />
-      <motion.div
-        animate={{ 
-          y: [0, 30, 0],
-          scale: [1, 1.2, 1],
-        }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-        className="absolute bottom-1/4 left-1/4 w-96 h-96 rounded-full bg-secondary/10 blur-3xl"
-      />
+      {/* Hero Video */}
+      <div className="absolute top-0 right-0 w-full h-full flex justify-end items-start pointer-events-none">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-[50%] lg:w-[40%] h-auto object-contain mix-blend-lighten opacity-80"
+        >
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       <div className="section-container relative z-10">
         <div className="max-w-4xl mx-auto text-center lg:text-left lg:mx-0">
@@ -37,7 +32,7 @@ const Hero = () => {
           >
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-primary text-sm font-medium">
-              Full-Stack Developer & ML Engineer
+              Frontend Developer Portfolio
             </span>
           </motion.div>
 
@@ -62,9 +57,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-10 mx-auto lg:mx-0"
           >
-            I'm a developer with experience in Web Development and Machine Learning. 
-            I combine frontend expertise with AI to create seamless interfaces and 
-            intelligent, predictive systems.
+            I'm a frontend developer with experience in Website, Mobile and Software development. 
+            Check out my projects and skills.
           </motion.p>
 
           {/* CTA Button */}
