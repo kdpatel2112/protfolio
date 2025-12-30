@@ -12,14 +12,17 @@ const projects = [
     github: "#",
     live: "#",
   },
-  {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for visualizing complex datasets with real-time updates. Features charts, filters, and export capabilities built with modern frontend technologies.",
-    tags: ["React", "D3.js", "TypeScript", "CSS Animations"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
-    github: "#",
-    live: "#",
-  },
+ {
+  title: "Fast api",
+  description:
+    "FastAPI-based machine learning dashboard with Swagger UI. Includes training endpoint, API documentation, and backend service integration.",
+  tags: ["FastAPI", "Python", "Swagger UI", "Machine Learning"],
+  image:
+    "/images/fastapi-dashboard.png",
+  github: "#",
+  live: "#",
+},
+
   
  
 ];
