@@ -22,6 +22,16 @@ const projects = [
   github: "#",
   live: "#",
 },
+{
+  title: "ML Flow",
+  description:
+    "Implemented MLflow to track, visualize, and compare machine learning experiments using interactive dashboards and performance metrics.",
+  tags:["Python", "MLflow", "DagsHub", "DVC", "Scikit-learn", "MLOps"],
+image: "/images/ML-flow.png"
+,
+  github: "#",
+  live: "#",
+},
 
   
  
